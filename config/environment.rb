@@ -4,9 +4,11 @@ require 'hanami/model'
 require_relative '../lib/insales'
 require_relative '../apps/web/application'
 require_relative './initializers/locale.rb'
+require_relative '../apps/api/application'
 
 Hanami.configure do
   mount Web::Application, at: '/'
+  mount Api::Application, at: '/api'
 
   model do
     ##

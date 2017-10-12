@@ -5,6 +5,9 @@ gem 'hanami',       '~> 1.0'
 gem 'hanami-model', '~> 1.0'
 
 gem 'sqlite3'
+gem 'i18n'
+gem 'addressable'
+gem 'insales_api'
 
 group :development do
   # Code reloading

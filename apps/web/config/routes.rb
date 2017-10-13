@@ -3,7 +3,7 @@
 #
 # Example:
 # get '/hello', to: ->(env) { [200, {}, ['Hello from Hanami!']] }
-get '/deliveries/:service/id/:insales_id(.:format)', to: 'deliveries#calc'
+
 post '/main', to: 'main#update'
 get '/main', to: 'main#index'
 get '/uninstall', to: 'insales_app#uninstall'

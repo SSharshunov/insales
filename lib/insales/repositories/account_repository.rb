@@ -5,4 +5,13 @@ class AccountRepository < Hanami::Repository
       .order(:insales_id)
       .limit(limit)
   end
+
+  # def update_deliveries_ids(insales_id, json)
+  #   accounts
+  #     .where(insales_id: insales_id)
+  #     .order(:insales_id)
+  #     .limit(limit)
+  #     .first
+  #     .update()
+  # end
 end

@@ -4,5 +4,5 @@ module Insales
     self.api_secret = '9268e059b25c2403afead89b72b82771'
   end
 
-  MyApp.configure_api('myshop-eo558.myinsales.ru', '6f4046723dfaaac9a26907fd8c373381')
+  MyApp.configure_api('myshop-eo558.myinsales.ru', 'dfe61c1e3c1a794ba4a3a10e5fe7ebc8')
 end

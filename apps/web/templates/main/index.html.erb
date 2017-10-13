@@ -2,27 +2,46 @@
 
 
 <%=
-  form_for :account, '/main' do
-    div class: 'input' do
-      label      :store_city_id
-      select     :store_city_id,
-        store_cities,
-        options: { prompt: 'Select a store' },
-        class: "form-control"
-    end
+#account.delivery_id
+  # if account.delivery_id == '0'
+  #   'its null'
+  #   # d = create_deliveries.map {|a| a.id}
+  #   # account.delivery_id = d
+  # else
+  #   'not null'
+  # end
+  # form_for :account, '/main' do
+  #   div class: 'input' do
+  #     label      :store_city_id
+  #     select     :store_city_id,
+  #       store_cities,
+  #       options: { prompt: 'Select a store' },
+  #       class: "form-control"
+  #   end
 
-    div class: 'input' do
-      label      :pricing_policy
-      text_field :pricing_policy
-    end
+  #   div class: 'input' do
+  #     label      :pricing_policy
+  #     text_field :pricing_policy
+  #   end
 
-    div class: 'controls' do
-      submit 'Create Book'
-    end
-  end
+  #   div class: 'controls' do
+  #     submit 'Create Book'
+  #   end
+  # end
 
 %>
 
 <div>
-  <%= create_deliveries %>
+  <%=
+  #account #.delivery_id
+  # if account.delivery_id == 0
+  #   'its null'
+  #   # d = create_deliveries.map {|a| a.id}
+  #   # account.delivery_id = d
+  # else
+  #   'not null'
+  # end
+  #d = create_deliveries.map {|a| a.id}
+  #d
+  %>
 </div>

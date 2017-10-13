@@ -8,6 +8,7 @@ gem 'sqlite3'
 gem 'i18n'
 gem 'addressable'
 gem 'insales_api'
+gem 'pg'
 
 group :development do
   # Code reloading

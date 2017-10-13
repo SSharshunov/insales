@@ -7,8 +7,8 @@ require_relative './initializers/locale.rb'
 require_relative '../apps/api/application'
 
 Hanami.configure do
-  mount Web::Application, at: '/'
   mount Api::Application, at: '/api'
+  mount Web::Application, at: '/'
 
   model do
     ##

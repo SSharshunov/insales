@@ -1,6 +1,7 @@
 module Web::Views::Main
   class Index
     include Web::View
+    template 'main/index'
 
     def store_cities
       url = "https://api.exline.systems/public/v1/regions/origins?country=KZ"

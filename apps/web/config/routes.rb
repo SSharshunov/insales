@@ -11,5 +11,3 @@ get '/install', to: 'insales_app#install'
 
 root to: 'home#index'
 
-# get '/install',   to: 'insales_app#install',   as: :install
-# get '/uninstall', to: 'insales_app#uninstall', as: :uninstall

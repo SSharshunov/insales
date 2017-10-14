@@ -9,7 +9,8 @@ gem 'i18n'
 gem 'addressable'
 gem 'insales_api'
 gem 'pg'
-
+gem 'hanami-bootstrap'
+gem 'jquery-hanami'
 group :development do
   # Code reloading
   # See: http://hanamirb.org/guides/projects/code-reloading

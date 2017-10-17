@@ -63,3 +63,11 @@ server '188.226.156.194', user: 'deployer', roles: %w{web}
 #     auth_methods: %w(publickey password)
 #     # password: "please use keys"
 #   }
+set :ssh_options, {
+    forward_agent: true,
+    auth_methods: %w(publickey password),
+    #keys: %w(/home/ussh/.ssh/id_rsa),
+    #password: 'p#\5*}=fH=u4}n>',
+    user: 'deployer',
+    port: 22, #1275,
+}

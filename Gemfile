@@ -15,6 +15,13 @@ group :development do
   # Code reloading
   # See: http://hanamirb.org/guides/projects/code-reloading
   gem 'shotgun'
+  gem 'capistrano',         require: false
+  gem 'capistrano-rvm',     require: false
+  gem 'capistrano-hanami'
+  gem 'capistrano-bundler', require: false
+  gem 'capistrano3-puma',   require: false
+  gem 'capistrano-secrets-yml', '~> 1.0.0'
+  gem 'capistrano-postgresql', '~> 4.2.0'
 end
 
 group :test, :development do

@@ -225,6 +225,7 @@ DEPENDENCIES
   jquery-hanami
   minitest
   pg
+  puma
   rake
   shotgun
   sqlite3

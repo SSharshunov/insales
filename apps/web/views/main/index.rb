@@ -29,14 +29,14 @@ module Web::Views::Main
             class: "form-control"
         end
 
-        h3 'Номер договора с компанией ExLine'
+        h3 'Тарифный план ExLine'
         div class: 'form-group' do
         #  label      :pricing_policy
           text_field :pricing_policy, class: "form-control", value: main_account.pricing_policy
         end
 
         div class: 'controls' do
-          submit 'Update', class: "btn btn-default"
+          submit 'Сохранить', class: "btn btn-default"
         end
       end
     end
